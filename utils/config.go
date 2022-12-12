@@ -82,12 +82,12 @@ Rᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ -><code>/filter "keyword"</code>
 
 var BUTTONS map[string][][]gotgbot.InlineKeyboardButton = map[string][][]gotgbot.InlineKeyboardButton{
 	"START": {
-		{
-			{Text: "ʜᴇʟᴘ", CallbackData: "edit(HELP)"},
-			{Text: "🧭 Help 🧭", CallbackData: "edit(ABOUT)"},
-			
-			{Text: "🫂 Sᴜᴘᴘᴏʀᴛ 🫂", Url: "t.me/"},
+		{{Text: "Fɪʟᴛᴇʀ", CallbackData: "edit(MF)"},
+			{Text: "Gʟᴏʙᴀʟ", CallbackData: "edit(GF)"},
+		}, {
+			{Text: "Cᴏɴɴᴇᴄᴛ", CallbackData: "edit(CONNECT)"}, {Text: "Broadcast", CallbackData: "edit(BROADCAST)"},
 		},
+		{{Text: "Bᴀᴄᴋ ➔", CallbackData: "edit(START)"}},
 	},
 	"ABOUT": {
 		{
