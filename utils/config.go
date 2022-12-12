@@ -7,9 +7,9 @@ import "github.com/PaulSonOfLars/gotgbot/v2"
 var TEXT map[string]string = map[string]string{
 
 	"START": `
-<b>Hᴇʏ %v ɪᴍ %v ᴀɴ Aᴡᴇsᴏᴍᴇ Filter bot with global filter support</b>
+𝘏𝘦𝘺 %v 𝘪𝘮 %v 𝘢𝘯 𝘢𝘸𝘦𝘴𝘰𝘮𝘦 𝘧𝘪𝘭𝘵𝘦𝘳 𝘣𝘰𝘵 𝘸𝘪𝘵𝘩 𝘨𝘭𝘰𝘣𝘢𝘭 𝘧𝘪𝘭𝘵𝘦𝘳 𝘴𝘶𝘱𝘱𝘰𝘳𝘵
 
-<i>I can save a custom reply for a word in any chat. Check my help menu for more details.</i>
+𝘐 𝘤𝘢𝘯 𝘴𝘢𝘷𝘦 𝘢 𝘤𝘶𝘴𝘵𝘰𝘮 𝘳𝘦𝘱𝘭𝘺 𝘧𝘰𝘳 𝘢 𝘸𝘰𝘳𝘥 𝘪𝘯 𝘢𝘯𝘺 𝘤𝘩𝘢𝘵. 𝘊𝘩𝘦𝘤𝘬 𝘮𝘺 𝘩𝘦𝘭𝘱 𝘮𝘦𝘯𝘶 𝘧𝘰𝘳 𝘮𝘰𝘳𝘦 𝘥𝘦𝘵𝘢𝘪𝘭𝘴
 	`,
 	"ABOUT": `
 <b>➥ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾</b> : <a href='https://go.dev'>𝗚𝗼</a>
@@ -82,31 +82,31 @@ Rᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ -><code>/filter "keyword"</code>
 
 var BUTTONS map[string][][]gotgbot.InlineKeyboardButton = map[string][][]gotgbot.InlineKeyboardButton{
 	"START": {
-		{{Text: "Fɪʟᴛᴇʀ", CallbackData: "edit(MF)"},
-			{Text: "Gʟᴏʙᴀʟ", CallbackData: "edit(GF)"},
+		{{Text: "ʜᴇʟᴩ", CallbackData: "edit(HELP)"},
+			
 		}, {
-			{Text: "Cᴏɴɴᴇᴄᴛ", CallbackData: "edit(CONNECT)"}, {Text: "Broadcast", CallbackData: "edit(BROADCAST)"},
+			{Text: "ᴜᴩᴅᴀᴛᴇꜱ", Url: "t.me/Hell_Botz"}, {Text: "ꜱᴜᴩᴩᴏʀᴛ", Url: "t.me/Hellbotsupport"},
 		},
-		{{Text: "Bᴀᴄᴋ ➔", CallbackData: "edit(START)"}},
+		{{Text: "ᴀʙᴏᴜᴛ", CallbackData: "edit(ABOUT)"}},
 	},
 	"ABOUT": {
 		{
-			{Text: "𝙷𝙾𝙼𝙴", CallbackData: "edit(START)"},
-			{Text: "𝚂𝚃𝙰𝚃𝚂", CallbackData: "stats"},
+			{Text: "ʜᴏᴍᴇ", CallbackData: "edit(START)"},
+			{Text: "ꜱᴛᴀᴛꜱ", CallbackData: "stats"},
 		},
 	},
 	"STATS": {
 		{
-			{Text: "𝙱𝙰𝙲𝙺", CallbackData: "edit(ABOUT)"},
-			{Text: "𝚁𝙴𝙵𝚁𝙴𝚂𝙷", CallbackData: "stats"},
+			{Text: "ʙᴀᴄᴋ", CallbackData: "edit(ABOUT)"},
+			{Text: "ʀᴇꜰʀᴇꜱʜ", CallbackData: "stats"},
 		},
 	},
 	"HELP": {
-		{{Text: "Fɪʟᴛᴇʀ", CallbackData: "edit(MF)"},
-			{Text: "Gʟᴏʙᴀʟ", CallbackData: "edit(GF)"},
+		{{Text: "ꜰɪʟᴛᴇʀ", CallbackData: "edit(MF)"},
+			{Text: "ɢʟᴏʙᴀʟ", CallbackData: "edit(GF)"},
 		}, {
-			{Text: "Cᴏɴɴᴇᴄᴛ", CallbackData: "edit(CONNECT)"}, {Text: "Broadcast", CallbackData: "edit(BROADCAST)"},
+			{Text: "ᴄᴏɴɴᴇᴄᴛ", CallbackData: "edit(CONNECT)"}, {Text: "ʙʀᴏᴀᴅᴄᴀꜱᴛ", CallbackData: "edit(BROADCAST)"},
 		},
-		{{Text: "Bᴀᴄᴋ ➔", CallbackData: "edit(START)"}},
+		{{Text: "◁", CallbackData: "edit(START)"}},
 	},
 }
