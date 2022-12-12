@@ -7,7 +7,7 @@ import "github.com/PaulSonOfLars/gotgbot/v2"
 var TEXT map[string]string = map[string]string{
 
 	"START": `
-𝘏𝘦𝘺 %v 𝘪𝘮 %v 𝘢𝘯 𝘢𝘸𝘦𝘴𝘰𝘮𝘦 𝘧𝘪𝘭𝘵𝘦𝘳 𝘣𝘰𝘵 𝘸𝘪𝘵𝘩 𝘨𝘭𝘰𝘣𝘢𝘭 𝘧𝘪𝘭𝘵𝘦𝘳 𝘴𝘶𝘱𝘱𝘰𝘳𝘵
+𝘏𝘦𝘺 {user} 𝘪𝘮 {bot} 𝘢𝘯 𝘢𝘸𝘦𝘴𝘰𝘮𝘦 𝘧𝘪𝘭𝘵𝘦𝘳 𝘣𝘰𝘵 𝘸𝘪𝘵𝘩 𝘨𝘭𝘰𝘣𝘢𝘭 𝘧𝘪𝘭𝘵𝘦𝘳 𝘴𝘶𝘱𝘱𝘰𝘳𝘵
 
 𝘐 𝘤𝘢𝘯 𝘴𝘢𝘷𝘦 𝘢 𝘤𝘶𝘴𝘵𝘰𝘮 𝘳𝘦𝘱𝘭𝘺 𝘧𝘰𝘳 𝘢 𝘸𝘰𝘳𝘥 𝘪𝘯 𝘢𝘯𝘺 𝘤𝘩𝘢𝘵. 𝘊𝘩𝘦𝘤𝘬 𝘮𝘺 𝘩𝘦𝘭𝘱 𝘮𝘦𝘯𝘶 𝘧𝘰𝘳 𝘮𝘰𝘳𝘦 𝘥𝘦𝘵𝘢𝘪𝘭𝘴
 	`,
@@ -17,7 +17,7 @@ var TEXT map[string]string = map[string]string{
 <b>➥ 𝖲𝖾𝗋𝗏𝖾𝗋</b> : <a href='heroku.com'>𝗛𝗲𝗿𝗼𝗸𝘂</a>
 <b>➥ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾</b> : <a href='mongodb.org'>𝗠𝗼𝗻𝗴𝗼𝗗𝗕</a>
 <b>➥ 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋</b> : <a href='t.me/About_beantg'>𝗕𝗲𝗮𝗻</a>
-<b>➥ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍</b> : <a href='t.me/jisin_hub'>𝗛𝗲𝗿𝗲</a>
+
 	`,
 
 	"MF": `
