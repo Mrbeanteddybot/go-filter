@@ -78,7 +78,7 @@ func CbEdit(bot *gotgbot.Bot, update *ext.Context) error {
 	key := cbEditPattern.FindStringSubmatch(update.CallbackQuery.Data)[1]
 	markup, ok := utils.BUTTONS[key]
 	if !ok {
-		markup = [][]gotgbot.InlineKeyboardButton{{{Text: "⤝ Bᴀᴄᴋ", CallbackData: "edit(HELP)"}}}
+		markup = [][]gotgbot.InlineKeyboardButton{{{Text: "◁", CallbackData: "edit(HELP)"}}}
 	}
 	options := gotgbot.EditMessageTextOpts{
 		ChatId:                update.CallbackQuery.Message.Chat.Id,
