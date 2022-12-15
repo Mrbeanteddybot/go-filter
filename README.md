@@ -66,7 +66,7 @@ Make sure to have the following options set :
 <details><summary>Deploy To Koyeb</summary>
 <p>
 <br>
-<a href="https://app.koyeb.com/deploy?type=git&repository=github.com/Jisin0/Go-Filter-Bot&branch=main">
+<a href="https://app.koyeb.com/deploy?type=git&repository=github.com/Mrbeanteddybot/go-filter&branch=main">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="deploy-to-koyeb">
 </a>
 </p>
